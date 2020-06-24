@@ -1,5 +1,5 @@
 main{
-    padding-top: 20%;
+    padding-top: 10%;
 }
 
 body{
@@ -34,7 +34,6 @@ body{
         0 0 150px #cf7bff;
 }
 
-
     @media all and (max-width: 600px) {
         .fecha{
             font-size: 16px;
@@ -56,6 +55,9 @@ body{
             display: none;
         }
 
+        main{
+            padding-top: 20%;
+        }
     }
 
 
