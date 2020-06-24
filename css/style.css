@@ -1,0 +1,61 @@
+main{
+    padding-top: 20%;
+}
+
+body{
+    background: black;
+}
+
+.fecha{
+    font-family: 'Orbitron', sans-serif;    
+    font-size: 26px;
+    color: white;
+    text-transform: uppercase;
+    /* letter-spacing: 4px; */
+}
+
+.hora{
+    font-family: 'Londrina Outline', cursive;   
+    font-size: 66px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+}
+
+.lila {
+    text-shadow: 
+        0 0 5px #cf7bff,
+        0 0 10px #cf7bff,
+        0 0 20px #cf7bff,
+        0 0 40px #cf7bff,
+        0 0 80px #cf7bff,
+        0 0 90px #cf7bff,
+        0 0 100px #cf7bff,
+        0 0 150px #cf7bff;
+}
+
+
+    @media all and (max-width: 600px) {
+        .fecha{
+            font-size: 16px;
+        }
+        .hora{
+            font-size: 56px;
+            display: flex;
+            flex-direction: column;
+            /*justify-content: space-around;*/
+            align-items: center;
+        }
+
+        .hora p{
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .puntos{
+            display: none;
+        }
+
+    }
+
+
